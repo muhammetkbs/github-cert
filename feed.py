@@ -13,7 +13,7 @@ link_prefix = yaml_data['link']
 
 
 ET.SubElement(channel_element, 'title').text = yaml_data['title']
-ET.SubElement(channel_element, 'format').text = yaml_data['title']
+ET.SubElement(channel_element, 'format').text = yaml_data['format']
 ET.SubElement(channel_element, 'subtitle').text = yaml_data['subtitle']
 ET.SubElement(channel_element, 'itunes:author').text = yaml_data['author']
 ET.SubElement(channel_element, 'description').text = yaml_data['description']
